@@ -1,0 +1,5 @@
+{
+    "(and :count more error)": "(oraz :count więcej błąd)",
+    "(and :count more errors)": "(oraz :count więcej błędów)",
+    "The given data was invalid.": "Podane dane są nieprawidłowe."
+}
