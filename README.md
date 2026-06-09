@@ -11,8 +11,6 @@ Aplikacja Laravel do rezerwacji pokoi, z REST API (V1) udokumentowanym przez Swa
 | Node.js | ≥ 18 (rekomendowane 22) | do budowania frontendu (Vite) |
 | Baza danych | MySql lub SQLite |  |
 
-Rozszerzenia PHP: standardowe dla Laravela 12 + `ext-json` (wbudowane w PHP).
-
 ## Instalacja
 
 ```bash
@@ -44,6 +42,10 @@ npm run build
 >    `composer setup`, inaczej migracja się wywali;
 > 2. uruchamia migracje **bez seedów** — po nim odpal `php artisan db:seed`, żeby mieć
 >    testowego użytkownika i dane.
+
+## Frontend
+
+Frontend jest stworzony we Vue.js, Pinia (jako storage), Vue Router, Axios i Tailwind CSS.
 
 ## Dokumentacja API (Swagger)
 
