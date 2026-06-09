@@ -110,7 +110,7 @@ php artisan test --compact  # zwięzły output
 
 Zmiany tłumaczeń w plikach lang na poziomie backendu Laravel są widoczne w aplikacji Vue po pzeładowaniu strony bez konieczności ponownego builda aplikacji.
 
-## Co bym poprawił mając więcej czasu
+## Co bym poprawił na kolejnych etapach projektu
 
 - Jeśli doszedłby panel admina to separaracja na frontend i backend do osobnych katalogów tak logiki jak i widoków
 - Cache - na poziomie repozytoriów aplikacji
